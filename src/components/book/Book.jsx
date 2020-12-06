@@ -1,4 +1,5 @@
 import React from 'react';
+import Sell from '../sell/Sell';
 import './book.css';
 
 
@@ -9,6 +10,7 @@ export default function Book() {
             <Author/>
             <Title/>
             <Price/>
+            <Sell/>
         </div>
     )
 }
