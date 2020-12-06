@@ -18,7 +18,7 @@ class Sell extends Component{
         return(
             <div>
                 <div>{this.state.message}</div>
-                <button onClick={this.clickHandler.bind(this)}>Check...</button>
+                <button className='btn btn-warning' onClick={this.clickHandler.bind(this)}>Check...</button>
             </div>
         )
     }
