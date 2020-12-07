@@ -3,6 +3,7 @@ import BooksList from '../booksList/BooksList'
 import Contacts from '../contacts/Contacts'
 import data from '../../data/data'
 import Article from '../article/Article'
+import ToDo from '../to-do-list/ToDo'
 
 export default class Main extends Component{
     constructor(){
@@ -25,6 +26,8 @@ export default class Main extends Component{
                         {themes} 
                     </div>                            
                     <Contacts vardas='Jolita' email='jolita@gmail.com' initialAge={17} />
+
+                    <ToDo/>
             </div>
     )
     }
