@@ -24,7 +24,7 @@ export default class Main extends Component{
                     <div className='list-group'>
                         {themes} 
                     </div>                            
-                    <Contacts vardas='Jolita' email='jolita@gmail.com'/>
+                    <Contacts vardas='Jolita' email='jolita@gmail.com' initialAge={17} />
             </div>
     )
     }
