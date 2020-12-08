@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class Sell extends Component{
     constructor(props){
-        super(props) 
+        super() 
         this.state = {
             message: 'Today 15% discount'
         }
@@ -22,6 +22,5 @@ class Sell extends Component{
             </div>
         )
     }
-
 }
 export default Sell

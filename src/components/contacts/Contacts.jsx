@@ -22,7 +22,5 @@ class Contacts extends Component{
             <button onClick={this.makeOlder.bind(this)} className='btn btn-info'>And now the true...</button>
         </div>
     )
-    }
-}
-
+    }}
 export default Contacts

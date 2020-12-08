@@ -56,7 +56,7 @@ function ToDo() {
 
 
     return (
-        <div className='table table-dark'>
+        <div className='table table-dark mt-3'>
             {todos.map((todo, index)=>(
                 <ToDoList key={index} index={index} todo={todo}/>
             ))}
