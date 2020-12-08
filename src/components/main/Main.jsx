@@ -4,6 +4,10 @@ import Contacts from '../contacts/Contacts'
 import data from '../../data/data'
 import Article from '../article/Article'
 import ToDo from '../to-do-list/ToDo'
+import VideoState from '../videostate/VideoState'
+
+import './main.css'
+import VideoEffect from '../videoeffect/VideoEffect'
 
 export default class Main extends Component{
     constructor(){
@@ -20,14 +24,17 @@ export default class Main extends Component{
                 }} />)
 
             return(
-            <div>  
+            <div className='center'>  
+                    <h3>To learn hooks</h3>
+                    <VideoState/>
+                    <VideoEffect/>
+                    <ToDo/>
                     <BooksList />  
                     <div className='list-group'>
                         {themes} 
                     </div>                            
                     <Contacts vardas='Jolita' email='jolita@gmail.com' initialAge={17} />
 
-                    <ToDo/>
             </div>
     )
     }

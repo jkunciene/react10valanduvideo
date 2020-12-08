@@ -4,7 +4,7 @@ function ToDoList({todo, index}) {
     return (
         <div className='row'>
             <div className='col'>{index+1}</div>
-            <div className='col'>{todo.text}</div>
+            <p className='col text-left'>{todo.text}</p>
             <div className='col'>{todo.isCompleted ? 'Done' : 'In progress'}</div>
         </div>
     )
@@ -36,16 +36,16 @@ function TodoForm({addTodo}) {
 function ToDo() {
     const [todos, setTodos] = useState([
         {
-            text: 'Idomi pamoka',
+            text: 'Clean yuor room',
             isCompleted: false
         },
         {
-            text: 'Nuvaziuoti i kirpykla',
+            text: 'Do your homework',
             isCompleted: false
         },
         {
-            text: 'Paziureti filma anglu kalba',
-            isCompleted: false
+            text: 'To go to the cinema',
+            isCompleted: true
         }
     ]);
 
