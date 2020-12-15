@@ -39,5 +39,6 @@ const data=[
   "id": 10,
   "title": "convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi",
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus."
-}]
+}
+]
 export default data;

@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
 
 const VideoState = () => {
-    const [count, setCount] = useState(4)
+    //TOP LEVEL
+    //1-current, 2-method state update 3-pradine reiksme '' []
+    const [count, setCount] = useState(0)
 
     const decrementCount = () => { 
         setCount(prevCount => prevCount - 1)

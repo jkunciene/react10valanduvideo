@@ -48,6 +48,10 @@ function ToDo() {
             isCompleted: true
         }
     ]);
+    
+//jei reikia darasyti + reiksme-eilute, tai nuolat paimu pries tai buvusi state reiksme
+//-siuo atveju sarasa darbu ir pridedu nauja prie esamu, tam reikalinga ...kopija
+//jei nebus tu taskeliu, jis perrasys state reiksme, vietoje saraso, atsiras nauja viena eilute
 
     const addTodo = text => {
         const newTodos = [...todos, {text}];

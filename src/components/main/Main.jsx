@@ -25,9 +25,9 @@ export default class Main extends Component{
 
             return(
             <div className='center'>  
-                    <h3>To learn hooks</h3>
+                    {/* <h3>To learn hooks</h3>
                     <VideoState/>
-                    <VideoEffect/>
+                    <VideoEffect/> */}
                     <ToDo/>
                     <BooksList />  
                     <div className='list-group'>
